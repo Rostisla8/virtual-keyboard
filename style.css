@@ -1,0 +1,95 @@
+html, body {
+  font-family: Gabriela, serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.description{
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+textarea{
+  width: 990px;
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgb(240, 234, 234);
+  color: #333;
+  font-size: 20px;
+  resize: none;
+  border: none;
+  outline:none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    max-width: 995px;
+    margin: 60px  auto;
+    background-color: rgb(128, 128, 128);
+    border-radius: 10px;
+}
+
+.key{
+  cursor: pointer;
+  font-size: 14px;
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+  background-color: rgb(71, 71, 71);
+  border-radius: 5px;
+  border: rgb(51, 50, 50) 0.7px solid;
+  color: greenyellow;
+  box-shadow: 4px 4px 4px rgba(0,0,0,1);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.boardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    height: 320px;
+    padding: 10px;
+}
+
+.active{
+  box-shadow: 1px 1px 1px rgba(0,0,0,1);
+  color: rgb(255, 174, 0);
+  border: rgb(67, 65, 65) 0.7px solid;
+}
+  .Space{
+      width:425px
+  }
+
+  .CapsLock{
+    width:100px;
+    background-color: rgb(46, 46, 46);
+    
+  }
+.AltLeft , .AltRight , .MetaLeft , .Space , .Tab , .Delete , .ControlLeft , .ControlRight{
+  background-color: rgb(46, 46, 46);
+}
+
+  .Enter{
+width: 150px;
+background-color: rgb(46, 46, 46);
+  }
+
+  .ShiftLeft{
+    width: 165px;
+    background-color: rgb(46, 46, 46);
+  }
+
+  .ShiftRight{
+    width: 85px;
+    background-color: rgb(46, 46, 46);
+  }
+  .Backspace{
+      width: 125px;
+      background-color: rgb(46, 46, 46);
+  }
+  
